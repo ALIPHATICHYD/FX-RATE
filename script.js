@@ -44,4 +44,5 @@ amountE1_two.addEventListener('input', 'calculate')
 swap.addEventListener('click', () => {
     const temp = currencyE1_one.value;
     currencyE1_one.value = currencyE1_two;
-   
+    currencyE1_two.value;
+    currencyE1_two.value = temp;
