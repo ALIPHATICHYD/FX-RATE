@@ -7,3 +7,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding: 1.2rem;
+}
+
+h1{
+    color: var(--primary-color);
+
+}
+
+small{
+    color: #768170;
+    font: 0.8rem;
+
+}
+
+small span{
+    color: var(--primary-color);
+    font-weight: bold;
+  
+}
