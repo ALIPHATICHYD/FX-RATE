@@ -28,3 +28,10 @@ rateEl.innerText = '1 $ {currency_one} = $ {currency_two}';
 
 
 }
+
+//Event Listeners
+
+currencyE1_one.addEventListener('change', 'calculate');
+
+currencyE1_two.addEventListener('change', 'calculate');
+
