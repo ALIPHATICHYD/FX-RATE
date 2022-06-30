@@ -35,3 +35,6 @@ currencyE1_one.addEventListener('change', 'calculate');
 
 currencyE1_two.addEventListener('change', 'calculate');
 
+amountE1_one.addEventListener('input', 'calculate');
+
+amountE1_two.addEventListener('input', 'calculate')
