@@ -18,5 +18,7 @@ const calculate = () => {
 
    const currencyE1_two = currencyE1_two.value;
 
-  
+   fetch('https://v6.exchangerate-api.com/v6/69589910d78aecf65b02bacf/latest/USD').then(res => res.json().then(data));
+
+   const rate = data.conversion_rates['currency_two'];
   
