@@ -38,3 +38,10 @@ currencyE1_two.addEventListener('change', 'calculate');
 amountE1_one.addEventListener('input', 'calculate');
 
 amountE1_two.addEventListener('input', 'calculate')
+
+//Swap Functionality
+
+swap.addEventListener('click', () => {
+    const temp = currencyE1_one.value;
+    currencyE1_one.value = currencyE1_two;
+   
