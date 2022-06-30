@@ -22,3 +22,9 @@ const calculate = () => {
 
    const rate = data.conversion_rates['currency_two'];
   
+rateEl.innerText = '1 $ {currency_one} = $ {currency_two}';
+
+    (amountE1_two.value = amountE1_one * rate).toFixed(2);
+
+
+}
