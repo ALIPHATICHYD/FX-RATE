@@ -9,3 +9,7 @@ const amountE1_two = document.getElementById('amount-two');
 const rateEl = document.getElementById('rate');
 
 const swap = document.getElementById('swap');
+
+//fetching the exchange rate and updated to dom
+
+const calculate = () => {
