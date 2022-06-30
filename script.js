@@ -13,3 +13,10 @@ const swap = document.getElementById('swap');
 //fetching the exchange rate and updated to dom
 
 const calculate = () => {
+
+   const currency_one = currencyE1_one.value;
+
+   const currencyE1_two = currencyE1_two.value;
+
+  
+  
